@@ -15,6 +15,24 @@
 
      res.append(cur.val) #注意是cur.val
      ```
+102. 二叉树的层序遍历
+     for 和 while的问题
+     ```python
+     ll = [1, 2, 3]
+     for _ in range(len(l)):
+          print(2)
+          ll.pop()
+     while len(l)>1:
+          print(2)
+          ll.pop()
+     ```
+     while循环每次会刷新len(layer), for循环不会。
+     统一建议
+     ```python
+     n = len(ll)
+     for i in range(n):
+          pass
+     ```
 
 
 
