@@ -33,7 +33,8 @@
      for i in range(n):
           pass
      ```
-
+300. 最长递增子序列 
+     bisect.bisect_left
 
 
 
