@@ -35,6 +35,9 @@
      ```
 300. 最长递增子序列 
      bisect.bisect_left
+354. 俄罗斯套娃
+     按第一个升序，如果第一个元素相同就，按第二个元素降序
+     envelopes.sort(key=lambda x: (x[0], -x[1]))
 
 
 
