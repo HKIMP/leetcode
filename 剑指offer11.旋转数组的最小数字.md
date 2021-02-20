@@ -18,4 +18,5 @@ class Solution:
             else:
                 right = mid
         return numbers[left]
-``
+```
+
