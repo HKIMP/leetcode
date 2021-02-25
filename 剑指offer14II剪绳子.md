@@ -20,3 +20,4 @@ class Solution:
             res = res*3%con
         return res*n%con
 ```
+
