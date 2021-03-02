@@ -38,6 +38,7 @@ def deleteNode(self, head, val):
         cur = head
         while cur.next!=val:
             cur = cur.next
+            
         cur.next = None
     return head
 ```
