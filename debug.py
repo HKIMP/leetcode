@@ -1,19 +1,19 @@
 from typing import List
+
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def subsets(self, nums):
+        size = len(nums)
+        if size == 0:
+            return []
+        res = []        
+        self.dfs(nums, 0, [], res)
+        return res
+    def dfs(self, nums, start, path, res):
+        res.append(path[:])
+        for i in range(start, len(nums)):
+            path.append(nums[i])
+            self.dfs(nums, i+1, path, res)
+            path.pop()
 
-        d = dict()
-
-        for i, num in enumerate(nums):
-            d[num] = i
-        
-        for i in d:
-            if target - i in d:
-                return [d[i], d[target-i]]
-        
-        return None
-        
-if __name__ == '__main__':
-
-    s = Solution()
-    s.twoSum([3, 2, 4], 6)
+ss = Solution()
+res = ss.subsets([1, 2, 3])
