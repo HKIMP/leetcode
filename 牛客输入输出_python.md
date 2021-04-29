@@ -43,6 +43,6 @@ print(res)
 ```
 
 参考：
-[牛客输入输出练习](https://ac.nowcoder.com/acm/contest/5652)
-[牛客网OJ系统的常见输入输出(Python语言)](https://blog.csdn.net/weixin_43593330/article/details/108299217?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-1&spm=1001.2101.3001.4242)
-[牛客网 多行输入输出问题 Python3 模板样例](https://blog.csdn.net/qq_39938666/article/details/101004633)
+1. [牛客输入输出练习](https://ac.nowcoder.com/acm/contest/5652)
+2. [牛客网OJ系统的常见输入输出(Python语言)](https://blog.csdn.net/weixin_43593330/article/details/108299217?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-1&spm=1001.2101.3001.4242)
+3. [牛客网 多行输入输出问题 Python3 模板样例](https://blog.csdn.net/qq_39938666/article/details/101004633)
